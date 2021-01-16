@@ -91,7 +91,7 @@ function absolute(n) {
 	return n
 }
 absolute = n => n > 0 ? n : n = -n
-11:36
+
 function profitableGamble(prob, prize, pay) {
 	return prob*prize > pay;
 }
@@ -136,7 +136,6 @@ function acceptIntoMovie(age, isSupervised) {
 	
 }
 
-Zerrin  10:59 PM
 function getLastItem(arr) {
   return arr[arr.length - 1]
 }
@@ -156,7 +155,7 @@ function isEvenOrOdd(num) {
 function isEvenOrOdd(num) {
   return num % 2 ? 'odd' : 'even';
 }
-11:19
+
 function isOdd(num) {
 	return num % 2 != 0;
 }
@@ -182,8 +181,4 @@ function yeah_nope(bool) {
 	return bool===true?"yeah":"nope";
 	
 }
-
-
-
-
 
